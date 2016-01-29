@@ -1,0 +1,331 @@
+/*@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Proxima Nova Regular'), local('ProximaNova-Regular'), url(https://fonts.gstatic.com/l/font?kit=3qINvnjb346LubKDfLRn6xampu5_7CjHW5spxoeN3Vs&skey=96867d716c89840e) format('woff2');
+}
+*/
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  min-width: 970px;
+}
+
+.wrapper {
+ width: 970px;
+  margin: 0 auto;
+}
+
+header {
+  height: 460px;
+  color: white;
+  background: #000000;
+}
+
+main {
+  height: 1190px;
+  background: #fdfdf1;
+}
+
+footer {
+  height: 60px;
+  color: white;
+  background: #000000;
+}
+
+
+/* content */
+
+.green-background {
+  background: #73d3b0;
+  height: 250px;
+}
+
+.investment {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #73d3b0;
+  margin-top: 40px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-top: 0px;
+  font-size: 90px;
+  margin-bottom: 0px;
+}
+
+.school {
+  padding: 0px;
+  line-height: 32px;
+  font-size: 26px;
+  width: 385px;
+  color: #73d3b0;
+  margin-top: 40px;
+}
+
+.founders {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.founders-names {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+main >header {
+  background: #73d3b0;
+  height: 250px;
+  position: relative;
+}
+
+.citation {
+  font-size: 28px;
+  color: black;
+  font-style: italic;
+  padding-top: 90px;
+  padding-left: 30px;
+  width: 600px;
+  z-index: 20;
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  font-size: 160px;
+  z-index: 10;
+}
+
+.quote2 {
+  z-index: 10;
+  margin-left: 510px;
+  margin-top: 80px;
+}
+
+.bigwoman {
+  position: absolute;
+  z-index: 30;
+  margin-left: 650px;
+  margin-top: -300px;
+  border-radius: 150px;
+}
+
+.signature {
+  z-index: 100;
+  position: absolute;
+  width: 165px;
+  text-align: center;
+  color: #000000;
+  margin-left: 720px;
+  margin-top: -50px
+}
+
+.ingeborga {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.dapkunaite {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.actress {
+  font-size: 12px;
+}
+
+.program {
+  float: left;
+  font-weight: bold;
+  font-size: 32px;
+  width: auto;
+  margin-right: 30px;
+
+
+
+}
+
+.program-description {
+  width: 440px;
+  font-size: 23px;
+  margin-left: x;
+  float: left;
+  font-style: italic;
+
+}
+
+.courses {
+  height: 460px;
+  width: 270px;
+  float: left;
+  margin-top: 70px;
+}
+
+.course1,
+.course2 {
+  margin-right: 79px;
+}
+
+.number {
+  font-size: 130px;
+  color: #73d3b0;
+  float: left;
+  line-height: 95px;
+}
+
+.name {
+  color: #73d3b0;
+  float: left;
+  margin-right: 130px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.fullname {
+  font-weight: bold;
+}
+
+.coursename {
+  height: 95px;
+  margin-bottom: 20px;
+}
+
+.course-description {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+hr {
+  height: 5px;
+  background-color: #73d3b0;
+  width: 970px;
+}
+
+.portrats {
+  float: left;
+  height: 86px;
+  width: 86px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.man {
+  border-radius: 60px;
+}
+
+.woman {
+  border-radius: 60px;
+  margin-right: 20px;
+}
+
+.lead {
+  font-weight: bold;
+}
+
+main > footer {
+background: orange;
+
+}
+
+.row {
+  color: black;
+  margin-top: 40px;
+  width: 970px;
+}
+
+.col-8 {
+  width: 66%;
+  float: left;
+}
+
+.col-4 {
+  width: 33%;
+  float: left;
+
+}
+
+.partners {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top:10px;
+}
+
+.text {
+  font-size: 15px;
+  margin-bottom: 20px
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.nadya {
+  padding-left: 10px;
+}
+
+.compinfo {
+  font-size: 25px;
+}
+
+.phone {
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.personname {
+  font-size: 20px;
+  ;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #73d3b0;
+  font-size: 20px;
+}
+
+.studio {
+  float: right;
+  padding-right: 90px;
+  padding-top: 10px;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+.copyright {
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 30px;
+  width: 170px;
+  float: left;
+}
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
